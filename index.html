@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>perspactive-hover</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<div class="container">
+    <div class="inner">
+    </div>
+</div>
+</body>
+<script src="./js/perspactiveHover.js"></script>
+<script>
+    var obj = {
+        fatherDom: document.getElementsByClassName("container")[0],
+        childDom: document.getElementsByClassName("inner")[0]
+    };
+    var perspactiveHover = new PerspactiveHover(obj);
+    perspactiveHover.onMouseEnterHandler();
+    perspactiveHover.onMouseLeaveHandler();
+    perspactiveHover.onMouseMoveHandler();
+</script>
+</html>

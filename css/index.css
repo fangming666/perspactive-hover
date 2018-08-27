@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro; }
+
+.container {
+  perspective: 40px; }
+
+.inner {
+  width: 20rem;
+  height: 18rem;
+  background-color: white;
+  transition: transform 0.5s; }
